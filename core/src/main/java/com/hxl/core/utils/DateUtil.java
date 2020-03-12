@@ -1,4 +1,4 @@
-package com.hxl.core.util;
+package com.hxl.core.utils;
 
 import java.util.Date;
 
