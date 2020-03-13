@@ -3,7 +3,8 @@ package com.hxl.core.utils;
 import java.util.Date;
 
 /**
- * @Description: 日期工具类
+ * 日期工具类
+ *
  * @Author: hanxuanliang
  * @Date: 2020/3/12 12:53
  */

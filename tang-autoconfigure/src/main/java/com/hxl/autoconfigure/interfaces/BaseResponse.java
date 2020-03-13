@@ -1,7 +1,8 @@
 package com.hxl.autoconfigure.interfaces;
 
 /**
- * @Description: 定义返回对象的接口规范
+ * 定义返回对象的接口规范
+ *
  * @Author: hanxuanliang
  * @Date: 2020/3/12 20:03
  */

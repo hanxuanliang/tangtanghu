@@ -5,7 +5,8 @@ import com.hxl.core.enums.UserLevel;
 import java.lang.annotation.*;
 
 /**
- * @Description: 登陆权限标注
+ * 登陆权限标注
+ *
  * @Author: hanxuanliang
  * @Date: 2020/3/12 9:36
  */

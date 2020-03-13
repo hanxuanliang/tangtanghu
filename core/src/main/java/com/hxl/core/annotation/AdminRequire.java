@@ -5,7 +5,8 @@ import com.hxl.core.enums.UserLevel;
 import java.lang.annotation.*;
 
 /**
- * @Description: 管理员权限标注
+ * 管理员权限标注
+ *
  * @Author: hanxuanliang
  * @Date: 2020/3/12 9:29
  */

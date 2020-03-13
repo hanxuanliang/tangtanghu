@@ -5,7 +5,8 @@ import lombok.Getter;
 import org.springframework.http.HttpStatus;
 
 /**
- * @Description: 禁止操作 异常类
+ * 禁止操作 异常类
+ *
  * @Author: hanxuanliang
  * @Date: 2020/3/12 20:29
  */

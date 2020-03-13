@@ -5,7 +5,8 @@ import lombok.Getter;
 import org.springframework.http.HttpStatus;
 
 /**
- * @Description: 授权 异常类
+ * 授权 异常类
+ *
  * @Author: hanxuanliang
  * @Date: 2020/3/12 21:26
  */

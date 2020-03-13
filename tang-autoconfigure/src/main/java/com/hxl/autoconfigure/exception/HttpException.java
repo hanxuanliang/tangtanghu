@@ -5,7 +5,8 @@ import com.hxl.autoconfigure.interfaces.BaseResponse;
 import org.springframework.http.HttpStatus;
 
 /**
- * @Description: Http 异常基类
+ * Http 异常基类
+ *
  * @Author: hanxuanliang
  * @Date: 2020/3/12 20:02
  */

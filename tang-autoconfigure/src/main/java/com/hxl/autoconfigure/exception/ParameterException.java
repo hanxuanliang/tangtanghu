@@ -8,7 +8,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Description: 参数错误 异常类
+ * 参数错误 异常类
+ *
  * @Author: hanxuanliang
  * @Date: 2020/3/12 21:15
  */

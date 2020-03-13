@@ -5,7 +5,8 @@ import lombok.Getter;
 import org.springframework.http.HttpStatus;
 
 /**
- * @Description: 资源不存在 异常类
+ * 资源不存在 异常类
+ *
  * @Author: hanxuanliang
  * @Date: 2020/3/12 20:20
  */

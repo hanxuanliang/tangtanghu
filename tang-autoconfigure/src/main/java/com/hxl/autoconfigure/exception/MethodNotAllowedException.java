@@ -5,7 +5,8 @@ import lombok.Getter;
 import org.springframework.http.HttpStatus;
 
 /**
- * @Description: 请求方法不允许 异常类
+ * 请求方法不允许 异常类
+ *
  * @Author: hanxuanliang
  * @Date: 2020/3/12 20:36
  */

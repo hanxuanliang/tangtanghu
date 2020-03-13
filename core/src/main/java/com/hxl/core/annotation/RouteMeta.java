@@ -3,7 +3,8 @@ package com.hxl.core.annotation;
 import java.lang.annotation.*;
 
 /**
- * @Description: 路由元信息
+ * 路由元信息
+ *
  * @Author: hanxuanliang
  * @Date: 2020/3/12 9:37
  */

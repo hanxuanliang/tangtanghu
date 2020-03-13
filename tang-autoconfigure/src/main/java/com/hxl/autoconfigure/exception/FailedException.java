@@ -5,7 +5,8 @@ import lombok.Getter;
 import org.springframework.http.HttpStatus;
 
 /**
- * @Description: 失败 异常
+ * 失败 异常
+ *
  * @Author: hanxuanliang
  * @Date: 2020/3/12 21:20
  */

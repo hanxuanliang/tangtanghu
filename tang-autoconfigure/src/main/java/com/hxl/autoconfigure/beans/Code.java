@@ -1,11 +1,11 @@
 package com.hxl.autoconfigure.beans;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
 
 /**
- * @Description: 消息码
+ * 消息码
+ *
  * @Author: hanxuanliang
  * @Date: 2020/3/12 20:10
  */
