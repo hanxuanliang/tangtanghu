@@ -4,13 +4,12 @@ import com.hxl.autoconfigure.interfaces.AuthorizeVerifyResolver;
 import com.hxl.core.annotation.RouteMeta;
 import com.hxl.core.enums.UserLevel;
 import com.hxl.core.utils.AnnotationUtil;
-import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.lang.annotation.Annotation;
@@ -24,16 +23,17 @@ import java.lang.reflect.Method;
  * @Date: 2020/3/12 21:54
  */
 @Component
-@RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class AuthorizeInterceptor extends HandlerInterceptorAdapter {
 
-    private final AuthorizeVerifyResolver authorizeVerifyResolver;
+    @Resource
+    private AuthorizeVerifyResolver authorizeVerifyResolver;
 
     private String[] excludeMethods;
 
-    public AuthorizeInterceptor(AuthorizeVerifyResolver authorizeVerifyResolver, String[] excludeMethods) {
-        // TODO 是否加入构造器中，未知？可能会删除此做法！
-        this.authorizeVerifyResolver = authorizeVerifyResolver;
+    public AuthorizeInterceptor(String[] excludeMethods) {
+        // Before：是否加入构造器中，未知？可能会删除此做法！【使用@Resource解决一下】
+        // this.authorizeVerifyResolver = authorizeVerifyResolver;
+        // 参照文章：http://www.itmuch.com/other/idea-mybatis-warning/#%E6%96%B9%E6%B3%952%EF%BC%9A%E7%94%A8-Resource-%E6%9B%BF%E6%8D%A2-Autowired
         this.excludeMethods = excludeMethods;
     }
 
