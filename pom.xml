@@ -7,10 +7,11 @@
   <groupId>com.hxl</groupId>
   <artifactId>tangtanghu</artifactId>
   <packaging>pom</packaging>
-  <version>0.0.1-RC3</version>
+  <version>0.0.1-alpha.1</version>
   <modules>
     <module>core</module>
     <module>tang-autoconfigure</module>
+    <module>tangtangdva</module>
   </modules>
 
   <properties>
