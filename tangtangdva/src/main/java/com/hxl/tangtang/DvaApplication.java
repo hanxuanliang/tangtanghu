@@ -3,6 +3,8 @@ package com.hxl.tangtang;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * 业务实现 入口类
  *
@@ -12,5 +14,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class DvaApplication {
 
-    public static void main(String[] args) { SpringApplication.run(DvaApplication.class); }
+    public static void main(String[] args) {
+        SpringApplication.run(DvaApplication.class);
+    }
 }
